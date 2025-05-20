@@ -17,7 +17,7 @@ You will be launched into Claude directory:
 
 ![Claude directory](./assets/claude-directory.png)
 
-Open `claude_desktop_config.json` in Visual Studio Code and paste the following configuration in the json file. Make sure to replace `<Connection URL from Lab 01>` by the Connection URL you copied from the Power Automate website and replace `<Tenant Id>` by the Tenant ID you copied from the session details in Power Platform Admin Center (all in lab 01).
+Open `claude_desktop_config.json` in Visual Studio Code and paste the following configuration in the json file. Make sure to replace `<Connection URL from Lab 01>` by the Connection URL you copied from the Power Automate website and replace `<Tenant Id>` by the Tenant ID you copied (all in lab 01).
 
 ```json
 {
