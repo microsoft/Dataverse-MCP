@@ -24,6 +24,10 @@ In lab 03 you will learn how you can use the Dataverse MCP server together with 
 
 In the upcoming months we will add more labs to this repository, so please stay tuned! Hopefully you liked the lab. Please take the time to fill in our [feedback form](https://aka.ms/Dataverse/MCP/Lab/Feedback) to tell us how we can improve!
 
+## 🎓 Learn More
+
+- Check out the [Dataverse MCP Server User Guide](https://go.microsoft.com/fwlink/?linkid=2320176)
+
 ## 📜 License Information
 
 This content is licensed under the **MIT License**. For terms and conditions, see the [LICENSE](./LICENSE).
