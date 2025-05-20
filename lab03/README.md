@@ -125,7 +125,7 @@ This should lead to a response like this:
 
 In the upcoming months we will add more labs to this repository, so please stay tuned! Hopefully you liked the lab. Please take the time to fill in our [feedback form](https://aka.ms/Dataverse/MCP/Lab/Feedback) to tell us how we can improve!
 
-## End of the labs!
+## ✅ End of the labs!
 
 You finished the labs! Make sure to try out the Dataverse MCP server in your day to day work!
 

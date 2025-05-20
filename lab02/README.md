@@ -1,10 +1,10 @@
 # 🏋️‍♂️ Lab 02 - Use the Dataverse MCP server with Claude
 In this lab, you will learn how to use the Dataverse MCP server with Claude. You will be guided through the setup steps and a couple of scenarios will be shown.
 
-## Download Claude
+## ⬇️ Download Claude
 If you have not already done so, download and install Claude desktop from [here](https://claude.ai/download). You can do this at any time as it is independent from other steps. The configuration of Claude desktop to connect with the Dataverse MCP server is the last step. You should be able to find and launch Claude from your desktop.
 
-## Configure Claude desktop
+## ⚙️ Configure Claude desktop
 Launch Claude desktop and navigate to File -> Settings
 
 ![Claude settings](./assets/claude-settings.png)
@@ -51,7 +51,7 @@ Your file should look like one below:
 
 Save this file and go back to Claude. **Exit** Claude – don't just close the window, but use the menu to exit.
 
-## Use the Dataverse MCP Server with Claude
+## 🧠 Use the Dataverse MCP Server with Claude
 Reopen Claude. Now you have configured the Dataverse MCP Server, this should give two prompts to authenticate. **Use the same account** you used for Dataverse. Once that is complete, you should see MCP Server that you’ve configured in `claude_desktop_config.json` in Claude. Once authentication completed for your desktop machine, you won’t be prompted again for connecting to the same environment in the future.
 
 Let's explore what is available in the Dataverse MCP server tools. Select the `Search and tools` icon and select the `Dataverse MCP server`. This will open the tools for you:
@@ -183,5 +183,5 @@ All contacts have been successfully created and stored in the Dataverse contacts
 
 There are lots of other tools available, so make sure to explore these all in Claude!
 
-## Continue with Lab 03!
+## ⏭️ Continue with Lab 03!
 👉 Go to [Lab 03](../lab03/README.md)
