@@ -1,5 +1,9 @@
 # 🧑🏽‍💻 Lab 03 - Use the Dataverse MCP server with Visual Studio Code
 
+In this lab, you will learn about how to use the Dataverse MCP server with Visual Studio Code. This lab will build on the earlier labs, so make sure to finish those as well.
+
+## ⚙️ Configure Visual Studio Code to use the Dataverse MCP server
+
 In Visual Studio Code, open GitHub Copilot by selecting the **GitHub Copilot icon** or use **ctrl+alt+I**.
 
 Change GitHub Copilot from ask mode to agent mode.
@@ -19,6 +23,8 @@ Depending on your extensions, the list can differ, but the `Dataverse MCP Server
 ![Available tools](./assets/available-tools.png)
 
 Make sure the tools are selected, and select `OK`.
+
+## 🧠 Use the Dataverse MCP server tools
 
 Let's start by asking again about the tables in Dataverse:
 

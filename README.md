@@ -4,13 +4,13 @@ The Dataverse Remote MCP Server has been released at Build. To help you get star
 
 ## 🛠️ Lab 01 - Setting up your Dataverse environment & install the Dataverse MCP Local Proxy
 
-A couple of steps need to be done to setup a Dataverse environment so that you can use the Dataverse MCP Server.
+In this lab, you will learn how to setup a Dataverse environment so that you can use the Dataverse MCP Server. Also, you will learn how to install the Dataverse Model Context Protocol server.
 
 👉 Go to [Lab 01](./lab01/README.md)
 
 ## 🏋️‍♂️ Lab 02 - Use the Dataverse MCP server with Claude
 
-In lab 02 you will learn how you can install the Dataverse MCP server.
+In this lab, you will learn how to use the Dataverse MCP server with Claude. You will be guided through the setup steps and a couple of scenarios will be shown.
 
 👉 Go to [Lab 02](./lab02/README.md)
 
