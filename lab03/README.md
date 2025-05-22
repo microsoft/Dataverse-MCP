@@ -4,25 +4,67 @@ In this lab, you will learn about how to use the Dataverse MCP server with Visua
 
 ## ⚙️ Configure Visual Studio Code to use the Dataverse MCP server
 
-In Visual Studio Code, open GitHub Copilot by selecting the **GitHub Copilot icon** or use **ctrl+alt+I**.
+If you don’t have VS Code installed, [download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/download).
+
+1. In VS Code, open the command palette using Ctrl+Shift+P or **View** > **Command Palette**. Type *MCP:* and a list of relevant MCP commands are displayed, such as MCP: List Servers and MCP: Add Servers.  
+1. If you have configured the Dataverse MCP server as described earlier in the [Claude desktop](#configure-and-use-the-dataverse-mcp-server-in-claude) step and your VS Code MCP setting is set as `"chat.mcp.discovery.enabled": true`, VS Code is able to discover it. For example, when you choose **MCP: List Servers**, the MCP server, such as **Dataverse MCP Server Running**, is displayed.
+
+   ![MCP Dataverse server running](./assets/mcp-server-running.png)
+
+   If the Dataverse MCP server isn't running, select the server and then select **Start Server**. Observe the server start in the **Output** window of VS Code.
+
+### Configure the Dataverse MCP server in VS Code
+
+These instructions help you configure a Dataverse MCP server at the user setting level.
+
+1. In VS Code, go to **Manage** (gear on lower left) > **Settings** or CTRL+, and then type *MCP*.
+1. **Mcp** is listed under the **User** tab. Select **Edit in settings.json**.
+   ![Edit Mcp JSON in VS Code](./assets/mcp-edit-vsc.png)
+1. Add the Dataverse MCP configuration text inside the mcp "servers" setting following the curly brace.
+   ![JSON snippet location for MCP Dataverse](./assets/mcp-dataverse-json.png)
+
+   ```json
+   "Dataverse MCP Server": {
+   "command": "Microsoft.PowerPlatform.Dataverse.MCP",
+   "args": [
+     "--ConnectionUrl",
+     "<Connection URL>",
+     "--MCPServerName",
+     "DataverseMCPServer",
+     "--TenantId",
+     "<Tenant Id>",
+     "--EnableHttpLogging",
+     "true",
+     "--EnableMsalLogging",
+     "false",
+     "--Debug",
+     "false",
+     "--BackendProtocol",
+     "HTTP"
+    ]
+   }
+   ```
+
+1. Replace `<Connection URL>` and `<Tenant Id>`
+
+> [!NOTE]
+> When the MCP server is configured correctly in settings.json, you notice a status like **Start**. This means that syntactically, it's correct and you can start the MCP server. In case it doesn’t show Start, you can go to **Command Palette** (Ctrl+Shift+P), type *MCP:* and then select **MCP: List Servers**. You should see the Dataverse MCP server there.
+
+In VS Code, open GitHub Copilot by selecting the **GitHub Copilot icon** or use **ctrl+alt+I**.
 
 Change GitHub Copilot from ask mode to agent mode.
 
 ![Change from ask to agent mode](./assets/change-ask-agent-mode.png)
 
-Make sure to refresh the tools to make sure the Dataverse MCP server details get loaded from the Claude configuration.
-
-![Refresh tools](./assets/refresh-tools.png)
-
 Now you can select the tools icon to open the available tools.
 
 ![Select tools](./assets/select-tools.png)
 
-Depending on your extensions, the list can differ, but the `Dataverse MCP Server` should be listed with a text `from Claude Desktop`.
+Depending on your extensions, the list can differ, but the **Dataverse MCP Server** should be listed with a text **from Claude Desktop** or if you manually added the MCP server to the settings, it should show without the `from Claude Desktop` text.
 
 ![Available tools](./assets/available-tools.png)
 
-Make sure the tools are selected, and select `OK`.
+Make sure the tools are selected, and select **OK**.
 
 ## 🧠 Use the Dataverse MCP server tools
 
@@ -32,11 +74,11 @@ Let's start by asking again about the tables in Dataverse:
 List tables from Dataverse
 ```
 
-GitHub Copilot will ask you if you want to continue running the `list_tables` tool. 
+GitHub Copilot will ask you if you want to continue running the **list_tables** tool. 
 
 ![Confirm list_tables tool run](./assets/confirm-tool-run.png)
 
-Select `Continue` and you should see something like the following response:
+Select **Continue** and you should see something like the following response:
 
 ![List_tables tool response](./assets/list-tables-response.png)
 
@@ -46,7 +88,7 @@ Now, let's list the items in the contact table again by running the following pr
 List items in the contact table
 ```
 
-Select `Continue` to run the tools needed. It will return items, but it might not return all the items in the table. If that happens, make sure to ask for 10 items. That should return all 10 items.
+Select **Continue** to run the tools needed. It will return items, but it might not return all the items in the table. If that happens, make sure to ask for 10 items. That should return all 10 items.
 
 ```
 Here are 10 records from the contact table:
