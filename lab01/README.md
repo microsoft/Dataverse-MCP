@@ -90,3 +90,5 @@ Great job! You’ve successfully completed configuration of Dataverse MCP server
 
 ## ⏭️ Continue with Lab 02
 👉 Go to [Lab 02](../lab02/README.md)
+
+![🛠️ Lab 01 - Setting up your Dataverse environment & install the Dataverse MCP Local Proxy](https://m365-visitor-stats.azurewebsites.net/?resource=https://github.com/microsoft/Dataverse-MCP/tree/main/lab01)
