@@ -185,3 +185,5 @@ There are lots of other tools available, so make sure to explore these all in Cl
 
 ## ⏭️ Continue with Lab 03!
 👉 Go to [Lab 03](../lab03/README.md)
+
+![🏋️‍♂️ Lab 02 - Use the Dataverse MCP server with Claude](https://m365-visitor-stats.azurewebsites.net/?resource=https://github.com/microsoft/Dataverse-MCP/tree/main/lab02)
