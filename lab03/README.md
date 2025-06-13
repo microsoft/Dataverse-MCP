@@ -178,3 +178,5 @@ In the upcoming months we will add more labs to this repository, so please stay 
 You finished the labs! Make sure to try out the Dataverse MCP server in your day to day work!
 
 👉 Go back to the [lab readme](../README.md)
+
+![🧑🏽‍💻 Lab 03 - Use the Dataverse MCP server with Visual Studio Code](https://m365-visitor-stats.azurewebsites.net/?resource=https://github.com/microsoft/Dataverse-MCP/tree/main/lab03)
